@@ -12,7 +12,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>br.edu.vidapet</groupId>
+    <groupId>vidapet</groupId>
     <artifactId>vidapet</artifactId>
     <version>0.1.0-TP1</version>
     <name>vidapet</name>

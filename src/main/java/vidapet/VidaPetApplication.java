@@ -1,4 +1,4 @@
-package br.edu.vidapet;
+package vidapet;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
