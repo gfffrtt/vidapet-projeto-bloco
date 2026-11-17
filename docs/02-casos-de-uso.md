@@ -5,7 +5,7 @@
 
 ## 1. Diagrama de casos de uso
 
-![Diagrama de casos de uso](diagrama-casos-de-uso.svg)
+![Diagrama de casos de uso](diagrama-casos-de-uso.png)
 
 Fonte editável do diagrama (PlantUML): `docs/diagrama-casos-de-uso.puml`.
 
