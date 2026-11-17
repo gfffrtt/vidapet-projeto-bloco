@@ -1,0 +1,32 @@
+@startuml VidaPet_CasosDeUso
+' Diagrama de casos de uso - Sistema VidaPet
+' Aluno: Gustavo Trapp - Projeto de Bloco (PB) - TP1
+left to right direction
+skinparam packageStyle rectangle
+skinparam actorStyle awesome
+
+actor "Recepcionista" as R
+actor "Veterinário" as V
+
+rectangle "Sistema VidaPet" {
+  usecase "UC01 Cadastrar animal" as UC01
+  usecase "UC02 Cadastrar veterinário" as UC02
+  usecase "UC03 Agendar consulta" as UC03
+  usecase "UC04 Cancelar consulta" as UC04
+  usecase "UC05 Consultar agenda do dia" as UC05
+  usecase "UC06 Registrar consulta realizada" as UC06
+  usecase "Validar horário de atendimento" as VAL
+  usecase "Verificar situação \"agendada\"" as SIT
+
+  UC03 ..> VAL : <<include>>
+  UC04 ..> SIT : <<include>>
+  UC06 ..> SIT : <<include>>
+}
+
+R --> UC01
+R --> UC02
+R --> UC03
+R --> UC04
+V --> UC05
+V --> UC06
+@enduml

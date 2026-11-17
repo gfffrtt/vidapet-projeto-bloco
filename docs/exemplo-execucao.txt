@@ -1,0 +1,309 @@
+(Dados de exemplo carregados: 2 veterinários e 3 animais.)
+==============================================
+   VidaPet - Sistema de Agendamento (TP1)
+==============================================
+
+Quem está usando o sistema?
+  1 - Recepcionista
+  2 - Veterinário
+  0 - Sair
+Opção: 
+--- RECEPCIONISTA ---
+  1 - Cadastrar animal
+  2 - Listar animais
+  3 - Cadastrar veterinário
+  4 - Listar veterinários
+  5 - Agendar consulta
+  6 - Cancelar consulta
+  7 - Listar todas as consultas
+  0 - Voltar
+Opção: Nome do animal: Espécie (cão/gato): Idade (anos): Nome do tutor: Telefone do tutor: Animal cadastrado com o número 4.
+
+--- RECEPCIONISTA ---
+  1 - Cadastrar animal
+  2 - Listar animais
+  3 - Cadastrar veterinário
+  4 - Listar veterinários
+  5 - Agendar consulta
+  6 - Cancelar consulta
+  7 - Listar todas as consultas
+  0 - Voltar
+Opção: Nome do animal: Espécie (cão/gato): Idade (anos): Nome do tutor: Telefone do tutor: Erro: a clínica só atende cães e gatos.
+
+--- RECEPCIONISTA ---
+  1 - Cadastrar animal
+  2 - Listar animais
+  3 - Cadastrar veterinário
+  4 - Listar veterinários
+  5 - Agendar consulta
+  6 - Cancelar consulta
+  7 - Listar todas as consultas
+  0 - Voltar
+Opção: Nome do veterinário: CRMV: Erro: já existe veterinário com o CRMV CRMV-SP 12345.
+
+--- RECEPCIONISTA ---
+  1 - Cadastrar animal
+  2 - Listar animais
+  3 - Cadastrar veterinário
+  4 - Listar veterinários
+  5 - Agendar consulta
+  6 - Cancelar consulta
+  7 - Listar todas as consultas
+  0 - Voltar
+Opção: Nº  | Nome         | Espécie | Idade | Tutor              | Telefone
+1   | Rex          | cão     |     5 | Carla Mendes       | (11) 98888-1111
+2   | Mimi         | gato    |     3 | Diego Alves        | (11) 97777-2222
+3   | Thor         | cão     |     9 | Elisa Rocha        | (11) 96666-3333
+4   | Lua          | gato    |     2 | João Pedro         | (11) 95555-4444
+Número do animal: Nº  | Nome                 | CRMV
+1   | Dra. Ana Souza       | CRMV-SP 12345
+2   | Dr. Bruno Lima       | CRMV-SP 67890
+Número do veterinário: Data (dd/mm/aaaa): Horário (hh:mm): Consulta nº 1 agendada: Rex com Dra. Ana Souza em 18/11/2026 às 09:00 até 09:30.
+
+--- RECEPCIONISTA ---
+  1 - Cadastrar animal
+  2 - Listar animais
+  3 - Cadastrar veterinário
+  4 - Listar veterinários
+  5 - Agendar consulta
+  6 - Cancelar consulta
+  7 - Listar todas as consultas
+  0 - Voltar
+Opção: Nº  | Nome         | Espécie | Idade | Tutor              | Telefone
+1   | Rex          | cão     |     5 | Carla Mendes       | (11) 98888-1111
+2   | Mimi         | gato    |     3 | Diego Alves        | (11) 97777-2222
+3   | Thor         | cão     |     9 | Elisa Rocha        | (11) 96666-3333
+4   | Lua          | gato    |     2 | João Pedro         | (11) 95555-4444
+Número do animal: Nº  | Nome                 | CRMV
+1   | Dra. Ana Souza       | CRMV-SP 12345
+2   | Dr. Bruno Lima       | CRMV-SP 67890
+Número do veterinário: Data (dd/mm/aaaa): Horário (hh:mm): Erro: o veterinário já possui consulta agendada neste horário.
+
+--- RECEPCIONISTA ---
+  1 - Cadastrar animal
+  2 - Listar animais
+  3 - Cadastrar veterinário
+  4 - Listar veterinários
+  5 - Agendar consulta
+  6 - Cancelar consulta
+  7 - Listar todas as consultas
+  0 - Voltar
+Opção: Nº  | Nome         | Espécie | Idade | Tutor              | Telefone
+1   | Rex          | cão     |     5 | Carla Mendes       | (11) 98888-1111
+2   | Mimi         | gato    |     3 | Diego Alves        | (11) 97777-2222
+3   | Thor         | cão     |     9 | Elisa Rocha        | (11) 96666-3333
+4   | Lua          | gato    |     2 | João Pedro         | (11) 95555-4444
+Número do animal: Nº  | Nome                 | CRMV
+1   | Dra. Ana Souza       | CRMV-SP 12345
+2   | Dr. Bruno Lima       | CRMV-SP 67890
+Número do veterinário: Data (dd/mm/aaaa): Horário (hh:mm): Erro: consultas só podem ser marcadas de segunda a sexta.
+
+--- RECEPCIONISTA ---
+  1 - Cadastrar animal
+  2 - Listar animais
+  3 - Cadastrar veterinário
+  4 - Listar veterinários
+  5 - Agendar consulta
+  6 - Cancelar consulta
+  7 - Listar todas as consultas
+  0 - Voltar
+Opção: Nº  | Nome         | Espécie | Idade | Tutor              | Telefone
+1   | Rex          | cão     |     5 | Carla Mendes       | (11) 98888-1111
+2   | Mimi         | gato    |     3 | Diego Alves        | (11) 97777-2222
+3   | Thor         | cão     |     9 | Elisa Rocha        | (11) 96666-3333
+4   | Lua          | gato    |     2 | João Pedro         | (11) 95555-4444
+Número do animal: Nº  | Nome                 | CRMV
+1   | Dra. Ana Souza       | CRMV-SP 12345
+2   | Dr. Bruno Lima       | CRMV-SP 67890
+Número do veterinário: Data (dd/mm/aaaa): Horário (hh:mm): Erro: não é possível agendar em data/horário que já passou.
+
+--- RECEPCIONISTA ---
+  1 - Cadastrar animal
+  2 - Listar animais
+  3 - Cadastrar veterinário
+  4 - Listar veterinários
+  5 - Agendar consulta
+  6 - Cancelar consulta
+  7 - Listar todas as consultas
+  0 - Voltar
+Opção: Nº  | Nome         | Espécie | Idade | Tutor              | Telefone
+1   | Rex          | cão     |     5 | Carla Mendes       | (11) 98888-1111
+2   | Mimi         | gato    |     3 | Diego Alves        | (11) 97777-2222
+3   | Thor         | cão     |     9 | Elisa Rocha        | (11) 96666-3333
+4   | Lua          | gato    |     2 | João Pedro         | (11) 95555-4444
+Número do animal: Nº  | Nome                 | CRMV
+1   | Dra. Ana Souza       | CRMV-SP 12345
+2   | Dr. Bruno Lima       | CRMV-SP 67890
+Número do veterinário: Data (dd/mm/aaaa): Horário (hh:mm): Erro: o horário deve ser entre 08:00 e 17:30, de 30 em 30 minutos.
+
+--- RECEPCIONISTA ---
+  1 - Cadastrar animal
+  2 - Listar animais
+  3 - Cadastrar veterinário
+  4 - Listar veterinários
+  5 - Agendar consulta
+  6 - Cancelar consulta
+  7 - Listar todas as consultas
+  0 - Voltar
+Opção: Nº  | Nome         | Espécie | Idade | Tutor              | Telefone
+1   | Rex          | cão     |     5 | Carla Mendes       | (11) 98888-1111
+2   | Mimi         | gato    |     3 | Diego Alves        | (11) 97777-2222
+3   | Thor         | cão     |     9 | Elisa Rocha        | (11) 96666-3333
+4   | Lua          | gato    |     2 | João Pedro         | (11) 95555-4444
+Número do animal: Nº  | Nome                 | CRMV
+1   | Dra. Ana Souza       | CRMV-SP 12345
+2   | Dr. Bruno Lima       | CRMV-SP 67890
+Número do veterinário: Data (dd/mm/aaaa): Horário (hh:mm): Erro: data inexistente ou fora do formato dd/mm/aaaa.
+
+--- RECEPCIONISTA ---
+  1 - Cadastrar animal
+  2 - Listar animais
+  3 - Cadastrar veterinário
+  4 - Listar veterinários
+  5 - Agendar consulta
+  6 - Cancelar consulta
+  7 - Listar todas as consultas
+  0 - Voltar
+Opção: Nº  | Nome         | Espécie | Idade | Tutor              | Telefone
+1   | Rex          | cão     |     5 | Carla Mendes       | (11) 98888-1111
+2   | Mimi         | gato    |     3 | Diego Alves        | (11) 97777-2222
+3   | Thor         | cão     |     9 | Elisa Rocha        | (11) 96666-3333
+4   | Lua          | gato    |     2 | João Pedro         | (11) 95555-4444
+Número do animal: Nº  | Nome                 | CRMV
+1   | Dra. Ana Souza       | CRMV-SP 12345
+2   | Dr. Bruno Lima       | CRMV-SP 67890
+Número do veterinário: Data (dd/mm/aaaa): Horário (hh:mm): Consulta nº 2 agendada: Thor com Dra. Ana Souza em 18/11/2026 às 08:30 até 09:00.
+
+--- RECEPCIONISTA ---
+  1 - Cadastrar animal
+  2 - Listar animais
+  3 - Cadastrar veterinário
+  4 - Listar veterinários
+  5 - Agendar consulta
+  6 - Cancelar consulta
+  7 - Listar todas as consultas
+  0 - Voltar
+Opção: Nº  | Nome         | Espécie | Idade | Tutor              | Telefone
+1   | Rex          | cão     |     5 | Carla Mendes       | (11) 98888-1111
+2   | Mimi         | gato    |     3 | Diego Alves        | (11) 97777-2222
+3   | Thor         | cão     |     9 | Elisa Rocha        | (11) 96666-3333
+4   | Lua          | gato    |     2 | João Pedro         | (11) 95555-4444
+Número do animal: Nº  | Nome                 | CRMV
+1   | Dra. Ana Souza       | CRMV-SP 12345
+2   | Dr. Bruno Lima       | CRMV-SP 67890
+Número do veterinário: Data (dd/mm/aaaa): Horário (hh:mm): Consulta nº 3 agendada: Lua com Dr. Bruno Lima em 18/11/2026 às 09:00 até 09:30.
+
+--- RECEPCIONISTA ---
+  1 - Cadastrar animal
+  2 - Listar animais
+  3 - Cadastrar veterinário
+  4 - Listar veterinários
+  5 - Agendar consulta
+  6 - Cancelar consulta
+  7 - Listar todas as consultas
+  0 - Voltar
+Opção: Nº  | Data       | Hora  | Animal       | Veterinário          | Situação
+1   | 18/11/2026 | 09:00 | Rex          | Dra. Ana Souza       | AGENDADA
+2   | 18/11/2026 | 08:30 | Thor         | Dra. Ana Souza       | AGENDADA
+3   | 18/11/2026 | 09:00 | Lua          | Dr. Bruno Lima       | AGENDADA
+
+--- RECEPCIONISTA ---
+  1 - Cadastrar animal
+  2 - Listar animais
+  3 - Cadastrar veterinário
+  4 - Listar veterinários
+  5 - Agendar consulta
+  6 - Cancelar consulta
+  7 - Listar todas as consultas
+  0 - Voltar
+Opção: Nº  | Data       | Hora  | Animal       | Veterinário          | Situação
+1   | 18/11/2026 | 09:00 | Rex          | Dra. Ana Souza       | AGENDADA
+2   | 18/11/2026 | 08:30 | Thor         | Dra. Ana Souza       | AGENDADA
+3   | 18/11/2026 | 09:00 | Lua          | Dr. Bruno Lima       | AGENDADA
+Número da consulta a cancelar: Consulta nº 2 cancelada.
+
+--- RECEPCIONISTA ---
+  1 - Cadastrar animal
+  2 - Listar animais
+  3 - Cadastrar veterinário
+  4 - Listar veterinários
+  5 - Agendar consulta
+  6 - Cancelar consulta
+  7 - Listar todas as consultas
+  0 - Voltar
+Opção: Nº  | Data       | Hora  | Animal       | Veterinário          | Situação
+1   | 18/11/2026 | 09:00 | Rex          | Dra. Ana Souza       | AGENDADA
+2   | 18/11/2026 | 08:30 | Thor         | Dra. Ana Souza       | CANCELADA
+3   | 18/11/2026 | 09:00 | Lua          | Dr. Bruno Lima       | AGENDADA
+Número da consulta a cancelar: Erro: só é possível cancelar consultas com situação AGENDADA (situação atual: CANCELADA).
+
+--- RECEPCIONISTA ---
+  1 - Cadastrar animal
+  2 - Listar animais
+  3 - Cadastrar veterinário
+  4 - Listar veterinários
+  5 - Agendar consulta
+  6 - Cancelar consulta
+  7 - Listar todas as consultas
+  0 - Voltar
+Opção: 
+Quem está usando o sistema?
+  1 - Recepcionista
+  2 - Veterinário
+  0 - Sair
+Opção: Informe seu CRMV: Olá, Dr. Bruno Lima!
+
+--- VETERINÁRIO: Dr. Bruno Lima ---
+  1 - Minha agenda do dia
+  2 - Registrar consulta realizada
+  0 - Voltar
+Opção: Suas consultas agendadas:
+3   | 18/11/2026 | 09:00 | Lua          | Dr. Bruno Lima       | AGENDADA
+Número da consulta realizada: Erro: apenas o veterinário da consulta pode registrá-la como realizada.
+
+--- VETERINÁRIO: Dr. Bruno Lima ---
+  1 - Minha agenda do dia
+  2 - Registrar consulta realizada
+  0 - Voltar
+Opção: 
+Quem está usando o sistema?
+  1 - Recepcionista
+  2 - Veterinário
+  0 - Sair
+Opção: Informe seu CRMV: Olá, Dra. Ana Souza!
+
+--- VETERINÁRIO: Dra. Ana Souza ---
+  1 - Minha agenda do dia
+  2 - Registrar consulta realizada
+  0 - Voltar
+Opção: Data (dd/mm/aaaa) ou Enter para hoje: Agenda de Dra. Ana Souza em 18/11/2026:
+  [2] 08:30-09:00 | Thor (cão, 9 ano(s)) | tutor: Elisa Rocha (11) 96666-3333 | CANCELADA
+  [1] 09:00-09:30 | Rex (cão, 5 ano(s)) | tutor: Carla Mendes (11) 98888-1111 | AGENDADA
+
+--- VETERINÁRIO: Dra. Ana Souza ---
+  1 - Minha agenda do dia
+  2 - Registrar consulta realizada
+  0 - Voltar
+Opção: Suas consultas agendadas:
+1   | 18/11/2026 | 09:00 | Rex          | Dra. Ana Souza       | AGENDADA
+Número da consulta realizada: Observações do atendimento: Consulta nº 1 registrada como REALIZADA.
+
+--- VETERINÁRIO: Dra. Ana Souza ---
+  1 - Minha agenda do dia
+  2 - Registrar consulta realizada
+  0 - Voltar
+Opção: Data (dd/mm/aaaa) ou Enter para hoje: Agenda de Dra. Ana Souza em 18/11/2026:
+  [2] 08:30-09:00 | Thor (cão, 9 ano(s)) | tutor: Elisa Rocha (11) 96666-3333 | CANCELADA
+  [1] 09:00-09:30 | Rex (cão, 5 ano(s)) | tutor: Carla Mendes (11) 98888-1111 | REALIZADA
+      Observações: Otite leve, prescrito antibiotico por 7 dias
+
+--- VETERINÁRIO: Dra. Ana Souza ---
+  1 - Minha agenda do dia
+  2 - Registrar consulta realizada
+  0 - Voltar
+Opção: 
+Quem está usando o sistema?
+  1 - Recepcionista
+  2 - Veterinário
+  0 - Sair
+Opção: Até logo!
